@@ -1,0 +1,30 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  background-color: #f8f8ff;
+  margin-bottom: 200px;
+}
+footer {
+  margin-top: 10px !important; 
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 200px;
+  background-color: black;
+}
+.jumbotron { /* responsive bg-img behind jumbotrons*/
+    background: url('http://www.shriadarshcreations.com/images/Data-Entry.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
